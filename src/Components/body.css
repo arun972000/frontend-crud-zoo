@@ -1,0 +1,16 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .zoom-image {
+    width: 100%;
+    height: auto;
+    transition:0.2s
+  }
+  
+  .image-container:hover .zoom-image {
+    transform: scale(1.2); /* Adjust the scale factor for the desired zoom level */
+    z-index: 1;
+  }
